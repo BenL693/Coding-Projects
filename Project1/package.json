@@ -1,0 +1,27 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ./Project1.js",
+		"build": "ts-node ./app/app.ts",
+		"commit": "git-cz"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://git.foxitreader.cn/html/seine_river_serve.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	},
+	"frame": "node"
+}
